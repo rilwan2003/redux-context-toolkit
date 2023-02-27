@@ -4,7 +4,7 @@ const FETCH_ITEMS_FAILURE = 'FETCH_ITEMS_FAILURE';
 
 const ADD_ITEM = 'ADD_ITEM';
 const DELETE_ITEM = 'DELETE_ITEM';
-
+// fetches request, success and failure
 export const fetchItemsRequest = () => ({
   type: FETCH_ITEMS_REQUEST,
 });
